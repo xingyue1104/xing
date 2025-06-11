@@ -2,7 +2,26 @@
   "urls": [
     {
       "url": "https://cdn.jsdelivr.net/gh/xingyue1104/tvbox@main/xyzj.json",
-      "name": "🍎苹果┃主配置"
+      "name": "🍎星月主配置"
     }
   ]
+}
+{
+  "sites": [
+    {
+      "key": "apple",
+      "name": "🍎苹果┃不卡",
+      "type": 3,
+      "api": "csp_LiteAppleGuard",
+      "timeout": 10,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "https://fs-im-kefu.7moor-fs1.com/ly/valid-path/f0605.jar"
+    }
+  ],
+  "lives": [],
+  "parses": [],
+  "spider": "",
+  "wallpaper": ""
 }
