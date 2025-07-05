@@ -1,25 +1,32 @@
-"sites": [
-  {
-    "key": "xingyue",
-    "name": "星月苹果",
-    "type": 3,
-    "api": "csp_ZxzjGuard",
-    "timeout": 15,
-    "searchable": 1,
-    "quickSearch": 1,
-    "changeable": 1,
-    "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1749884580068/f0614.jpg;md5;44f446a8a641a4e0c34e9a9657f3b7e2"
-  },
-  {
-    "key": "changzhang",
-    "name": "星月┃不卡",
-    "type": 3,
-    "api": "csp_NewCzGuard",
-    "timeout": 15,
-    "playerType": 2,
-    "searchable": 1,
-    "quickSearch": 1,
-    "changeable": 1,
-    "jar": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1749884580068/f0614.jpg;md5;44f446a8a641a4e0c34e9a9657f3b7e2"
-  }
-]
+{
+  "urls": [
+    {
+      "url": "https://gitee.com/xingyue1104/xyzj/raw/master/xyzj.json",
+      "name": "星月主配置"
+    }
+  ],
+  "spider": "https://ghproxy.com/https://gitee.com/xingyue1104/xyzj/raw/master/spider/custom_spider.jar",
+  "sites": [
+    {
+      "key": "csp_douban",
+      "name": "🌕┃豆瓣┃热播",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "MV_vod",
+      "name": "🎶明星┃MV",
+      "type": 1,
+      "api": "https://mv.wogg.link/mv/vod",
+      "style": {
+        "type": "oval"
+      },
+      "searchable": 1,
+      "quickSearch": 0,
+      "changeable": 0
+    }
+  ]
+}
