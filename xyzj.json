@@ -5,7 +5,7 @@
       "name": "星月主配置"
     }
   ],
-  "spider": "https://ghproxy.com/https://gitee.com/xingyue1104/xyzj/raw/master/spider/custom_spider.jar",
+  "spider": "https://github.com/xingyue1104/xing/blob/main/csp_XingYue.jar",
   "sites": [
     {
       "key": "csp_douban",
