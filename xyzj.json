@@ -9,7 +9,7 @@
   "sites": [
     {
       "key": "csp_douban",
-      "name": "🌕┃豆瓣┃热播",
+      "name": "🌕┃星月┃热播",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 1,
@@ -18,7 +18,7 @@
     },
     {
       "key": "MV_vod",
-      "name": "🎶明星┃MV",
+      "name": "🎶星月明星┃MV",
       "type": 1,
       "api": "https://mv.wogg.link/mv/vod",
       "style": {
